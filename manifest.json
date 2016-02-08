@@ -1,0 +1,32 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+
+  "manifest_version": 2,
+  "name": "Setupmyproduct user file parser",
+  "description": "It helps to fill user's form." ,
+  "version": "1.2.12",
+  "author":"Przemyslaw Rzeznik",
+
+  "icons": {
+    "16" : "images/heman16.png",
+    "19" : "images/heman19.png",
+    "48" : "images/heman48.png",
+    "64" : "images/heman64.png",
+    "72" : "images/heman72.png",
+    "96" : "images/heman96.png",
+    "128" : "images/heman128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "images/heman128.png",
+    "default_popup": "popup.html"
+  }
+}
