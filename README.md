@@ -27,5 +27,3 @@ Have a nice day!
  [df2]: <https://chrome.google.com/webstore/detail/setupmyproduct-user-file/fgpenagpdaicjknagjapfjkkhncjgcih>
  [df3]: <test_plugin.html>
  
-
- // file made by https://markable.in/editor/
